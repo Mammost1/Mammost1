@@ -8,12 +8,12 @@ underneath) and I write small, well-tested tools when I keep hitting the same pr
 
 - **[runtime-pin-check](https://github.com/Mammost1/runtime-pin-check)**: checks that the Node,
   Python and Go versions pinned in `.nvmrc`, `package.json`, Dockerfiles, CI and tool files agree,
-  per project in a monorepo. End-of-life warnings, a `--fix` that changes only the version digits,
-  and a GitHub Action. Precision measured by hand on 40 public repositories.
+  per project in a monorepo. End-of-life warnings and a `--fix` that changes only the version digits.
+  Precision measured by hand on 40 public repositories.
   `npx runtime-pin-check` · [npm](https://www.npmjs.com/package/runtime-pin-check)
 - **[thai-address-check](https://github.com/Mammost1/thai-address-check)**: validates Thai address
   fields (subdistrict, district, province, postal code), explains every mismatch and corrects only
-  when the evidence is strong. Library, CLI for CSV/XLSX files and an in-browser playground.
+  when the evidence is strong. Library and CLI for CSV/XLSX files.
   `npm install thai-address-check` · [npm](https://www.npmjs.com/package/thai-address-check)
 
 ## Earlier work
